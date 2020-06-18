@@ -1,1 +1,90 @@
-ECHO가 설정되어 있습니다.
+.block{
+	width:150px;
+	height:150px;
+	background: linear-gradient(to top, #333 0%, #666 0%, #333 100%);
+	border-radius: 10px;
+	box-shadow: inset 2px 2px 5px 2px #333;
+	display: inline-block;
+	vertical-align: top;
+	color:#fff;
+}
+h3 {
+	font-family: Arial;
+	font-size: 18px;
+	text-align: center;
+}
+
+.vertical{
+	width: 75px;
+	height: 75px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	
+}
+
+.vertical input{
+	transform: rotate(90deg);
+	width: 75px;
+}
+
+.vertical label{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 75px;
+}
+
+.horizontal {
+	width: 100px;
+	margin: 0 auto;
+}
+
+.horizontal input{
+	width: 100px;
+}
+
+.horizontal label{
+	width: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 75px;
+	flex-direction: column;
+}
+
+#shape-ok {
+	margin-top: 10px;
+}
+
+.hex-container {
+	width: 100px;
+	margin: 30px auto 0;
+
+}
+#hex{
+	width: 80px;
+}
+
+.rgba-container {
+	margin: 0 auto;
+	width: 100px;
+}
+
+.rgba-container input{
+	width: 80px;
+}
+
+#block{
+	width: 150px;
+	height: 150px;
+	background-color: #ff0000;
+}
+.container {
+	margin-top : 20px;
+}
